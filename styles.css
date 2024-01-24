@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(223, 218, 218);
+    width: 300px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 34px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 87vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: #d60baa; */
+    margin: 111px auto;
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: -1px;
+    max-width: 50vw;                            /* Swayam */
+}
+
+.hello {
+    font-size: 2.4rem;
+}
+
+.name {
+    font-size: 2.7rem;
+    font-weight: 600;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0px;
+}
+
+.about {
+    font-size: 2.3rem;
+}
+
+.moreabout {
+    font-size: 1.1rem;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 2px solid black;
+    letter-spacing: 1px;
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    border-radius: 19px;
+    border: 2px solid black;
+    font-size: 13px;
+    margin: 5px 0;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    color: dodgerblue;
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+.devPic img {
+    margin-top: 6.5vh;
+    height: 38vh;
+    border-radius: 25px;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 27px;
+    padding-top: 100px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: -1px;
+    font-size: 2.4rem;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.contactform form div {
+    padding: 7px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input, textarea {
+    width: 26vw;
+    border-radius: 5px;
+    border: 2px solid black;
+    resize: none;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    padding: 3px 5px;
+    padding-bottom: 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input[type="checkbox"] {
+    width: 20px;
+    margin: 3px 0;
+}
